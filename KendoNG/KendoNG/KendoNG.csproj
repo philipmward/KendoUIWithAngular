@@ -39,6 +39,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -69,8 +73,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\app.js" />
+    <Content Include="app\dataSource\dataSource.html" />
+    <Content Include="app\dataSource\dataSource.js" />
+    <Content Include="app\doc\UnderstandingCustomization.html" />
     <Content Include="app\layout\topnav.html" />
     <Content Include="app\modal\modal.html" />
+    <Content Include="app\order\order.html" />
+    <Content Include="app\order\order.js" />
     <Content Include="app\welcome\welcome.html" />
     <Content Include="app\welcome\welcome.js" />
     <Content Include="app\welcome\welcome2.html" />
