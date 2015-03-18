@@ -26,6 +26,7 @@
             vm.computerChange=function(e) {
                 console.log(e.sender.text());
                 vm.computerChosen = e.sender.text() !== defaultComputerOption;
+                vm.selectedComputer = e.sender.text();
             }
         };
 
